@@ -1,0 +1,160 @@
+{"timestamp":"2026-04-05T09:05:23.737483Z","level":"info","event":"Stats instance was created in PID 7 but accessed in PID 116. Re-initializing.","logger":"airflow.stats","filename":"stats.py","lineno":57}
+{"timestamp":"2026-04-05T09:05:23.769196Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-04-05T09:05:23.771886Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/f1ow_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-05T09:05:24.406636Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/f1ow_dag.py","lineno":2,"logger":"py.warnings"}
+{"timestamp":"2026-04-05T09:05:25.239946Z","level":"info","event":"Fetching data for season 2023, round 1...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:26.361685Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:26.362551Z","level":"info","event":"Fetching data for season 2023, round 2...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:26.923609Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:26.924579Z","level":"info","event":"Fetching data for season 2023, round 3...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:27.766966Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:27.767745Z","level":"info","event":"Fetching data for season 2023, round 4...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:28.533041Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:28.533563Z","level":"info","event":"Fetching data for season 2023, round 5...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:29.130302Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:29.143245Z","level":"info","event":"Fetching data for season 2023, round 6...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:29.859518Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:29.859995Z","level":"info","event":"Fetching data for season 2023, round 7...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:30.586906Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:30.587493Z","level":"info","event":"Fetching data for season 2023, round 8...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:31.181956Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:31.182680Z","level":"info","event":"Fetching data for season 2023, round 9...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:31.784626Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:31.785490Z","level":"info","event":"Fetching data for season 2023, round 10...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:32.389795Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:32.390340Z","level":"info","event":"Fetching data for season 2023, round 11...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:33.174595Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:33.175322Z","level":"info","event":"Fetching data for season 2023, round 12...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:33.967493Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:33.968079Z","level":"info","event":"Fetching data for season 2023, round 13...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:34.570444Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:34.586145Z","level":"info","event":"Fetching data for season 2023, round 14...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:35.171147Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:35.171958Z","level":"info","event":"Fetching data for season 2023, round 15...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:35.942602Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:35.943244Z","level":"info","event":"Fetching data for season 2023, round 16...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:36.505639Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:36.506303Z","level":"info","event":"Fetching data for season 2023, round 17...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:37.114357Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:37.114935Z","level":"info","event":"Fetching data for season 2023, round 18...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:37.666779Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:37.667288Z","level":"info","event":"Fetching data for season 2023, round 19...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:38.272161Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:38.272875Z","level":"info","event":"Fetching data for season 2023, round 20...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:38.880182Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:38.880876Z","level":"info","event":"Fetching data for season 2023, round 21...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:39.483399Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:39.483971Z","level":"info","event":"Fetching data for season 2023, round 22...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:40.189295Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:40.208799Z","level":"info","event":"Fetching driver standings for season 2023...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:40.873856Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:40.874941Z","level":"info","event":"Fetching constructor standings for season 2023...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:41.562274Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:41.563543Z","level":"info","event":"Season 2023 complete!","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:42.109546Z","level":"info","event":"Fetching data for season 2024, round 1...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:42.682260Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:42.682973Z","level":"info","event":"Fetching data for season 2024, round 2...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:43.295921Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:43.296783Z","level":"info","event":"Fetching data for season 2024, round 3...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:44.043241Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:44.051665Z","level":"info","event":"Fetching data for season 2024, round 4...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:44.672930Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:44.673524Z","level":"info","event":"Fetching data for season 2024, round 5...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:45.366956Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:45.384363Z","level":"info","event":"Fetching data for season 2024, round 6...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:45.993824Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:45.994518Z","level":"info","event":"Fetching data for season 2024, round 7...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:46.596229Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:46.596893Z","level":"info","event":"Fetching data for season 2024, round 8...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:47.564860Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:47.565590Z","level":"info","event":"Fetching data for season 2024, round 9...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:48.154345Z","level":"info","event":"Error fetching F1 data for season 2024: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:48.155623Z","level":"info","event":"Fetching data for season 2024, round 10...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:48.735079Z","level":"info","event":"Error fetching F1 data for season 2024: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:48.737753Z","level":"info","event":"Fetching data for season 2024, round 11...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:49.324242Z","level":"info","event":"Error fetching F1 data for season 2024: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:49.325587Z","level":"info","event":"Fetching data for season 2024, round 12...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:50.005163Z","level":"info","event":"Error fetching F1 data for season 2024: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:50.006480Z","level":"info","event":"Fetching data for season 2024, round 13...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:50.540619Z","level":"info","event":"Error fetching F1 data for season 2024: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:50.555486Z","level":"info","event":"Fetching data for season 2024, round 14...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:51.127252Z","level":"info","event":"Error fetching F1 data for season 2024: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:51.129020Z","level":"info","event":"Fetching data for season 2024, round 15...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:51.662513Z","level":"info","event":"Error fetching F1 data for season 2024: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:51.664992Z","level":"info","event":"Fetching data for season 2024, round 16...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:52.209316Z","level":"info","event":"Error fetching F1 data for season 2024: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:52.211434Z","level":"info","event":"Fetching data for season 2024, round 17...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:52.988432Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:52.989302Z","level":"info","event":"Fetching data for season 2024, round 18...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:53.518758Z","level":"info","event":"Error fetching F1 data for season 2024: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:53.520505Z","level":"info","event":"Fetching data for season 2024, round 19...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:54.046962Z","level":"info","event":"Error fetching F1 data for season 2024: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:54.048385Z","level":"info","event":"Fetching data for season 2024, round 20...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:54.638670Z","level":"info","event":"Error fetching F1 data for season 2024: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:54.640416Z","level":"info","event":"Fetching data for season 2024, round 21...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:55.301205Z","level":"info","event":"Error fetching F1 data for season 2024: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:55.302751Z","level":"info","event":"Fetching data for season 2024, round 22...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:55.885809Z","level":"info","event":"Error fetching F1 data for season 2024: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:55.900879Z","level":"info","event":"Fetching data for season 2024, round 23...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:56.497524Z","level":"info","event":"Error fetching F1 data for season 2024: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:56.499725Z","level":"info","event":"Fetching data for season 2024, round 24...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:57.084749Z","level":"info","event":"Error fetching F1 data for season 2024: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:57.086627Z","level":"info","event":"Fetching driver standings for season 2024...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:57.637266Z","level":"info","event":"Error fetching F1 standings for season 2024: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:57.640543Z","level":"info","event":"Fetching constructor standings for season 2024...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:58.175649Z","level":"info","event":"Error fetching F1 standings for season 2024: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:58.177667Z","level":"info","event":"Season 2024 complete!","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:58.781699Z","level":"info","event":"Fetching data for season 2025, round 1...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:59.411084Z","level":"info","event":"Error fetching F1 data for season 2025: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:05:59.413132Z","level":"info","event":"Fetching data for season 2025, round 2...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:00.190604Z","level":"info","event":"Error fetching F1 data for season 2025: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:00.193995Z","level":"info","event":"Fetching data for season 2025, round 3...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:00.780977Z","level":"info","event":"Error fetching F1 data for season 2025: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:00.783007Z","level":"info","event":"Fetching data for season 2025, round 4...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:01.364635Z","level":"info","event":"Error fetching F1 data for season 2025: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:01.378637Z","level":"info","event":"Fetching data for season 2025, round 5...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:01.981486Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:01.982120Z","level":"info","event":"Fetching data for season 2025, round 6...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:02.567650Z","level":"info","event":"Error fetching F1 data for season 2025: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:02.569431Z","level":"info","event":"Fetching data for season 2025, round 7...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:03.148423Z","level":"info","event":"Error fetching F1 data for season 2025: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:03.149520Z","level":"info","event":"Fetching data for season 2025, round 8...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:03.725047Z","level":"info","event":"Error fetching F1 data for season 2025: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:03.725980Z","level":"info","event":"Fetching data for season 2025, round 9...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:04.302850Z","level":"info","event":"Error fetching F1 data for season 2025: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:04.304984Z","level":"info","event":"Fetching data for season 2025, round 10...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:04.867178Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:04.867686Z","level":"info","event":"Fetching data for season 2025, round 11...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:05.393757Z","level":"info","event":"Error fetching F1 data for season 2025: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:05.397371Z","level":"info","event":"Fetching data for season 2025, round 12...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:05.973866Z","level":"info","event":"Error fetching F1 data for season 2025: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:05.977908Z","level":"info","event":"Fetching data for season 2025, round 13...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:06.553526Z","level":"info","event":"Error fetching F1 data for season 2025: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:06.567522Z","level":"info","event":"Fetching data for season 2025, round 14...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:07.134569Z","level":"info","event":"Error fetching F1 data for season 2025: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:07.135574Z","level":"info","event":"Fetching data for season 2025, round 15...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:07.674984Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:07.675514Z","level":"info","event":"Fetching data for season 2025, round 16...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:08.254262Z","level":"info","event":"Error fetching F1 data for season 2025: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:08.260989Z","level":"info","event":"Fetching data for season 2025, round 17...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:08.848169Z","level":"info","event":"Error fetching F1 data for season 2025: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:08.849959Z","level":"info","event":"Fetching data for season 2025, round 18...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:09.433170Z","level":"info","event":"Error fetching F1 data for season 2025: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:09.434922Z","level":"info","event":"Fetching data for season 2025, round 19...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:10.116250Z","level":"info","event":"Error fetching F1 data for season 2025: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:10.117428Z","level":"info","event":"Fetching data for season 2025, round 20...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:10.721298Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:10.721928Z","level":"info","event":"Fetching data for season 2025, round 21...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:11.249962Z","level":"info","event":"Error fetching F1 data for season 2025: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:11.251639Z","level":"info","event":"Fetching data for season 2025, round 22...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:11.785086Z","level":"info","event":"Error fetching F1 data for season 2025: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:11.799648Z","level":"info","event":"Fetching data for season 2025, round 23...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:12.318188Z","level":"info","event":"Error fetching F1 data for season 2025: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:12.321345Z","level":"info","event":"Fetching data for season 2025, round 24...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:12.905425Z","level":"info","event":"Error fetching F1 data for season 2025: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:12.906963Z","level":"info","event":"Fetching driver standings for season 2025...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:13.502976Z","level":"info","event":"Error uploading to S3: Unable to locate credentials","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:13.503502Z","level":"info","event":"Fetching constructor standings for season 2025...","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:14.028311Z","level":"info","event":"Error fetching F1 standings for season 2025: Expecting value: line 1 column 1 (char 0)","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:14.033416Z","level":"info","event":"Season 2025 complete!","logger":"task.stdout"}
+{"timestamp":"2026-04-05T09:06:14.031944Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
