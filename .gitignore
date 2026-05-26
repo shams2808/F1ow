@@ -3,5 +3,9 @@ __pycache__/
 *.pyc
 .env
 airflow/config/airflow.cfg
+<<<<<<< HEAD
 airflow/.env
 airflow/logs/
+=======
+airflow/logs/
+>>>>>>> de730ee001d693d16ddf942719087f8087b3608e
