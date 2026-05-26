@@ -49,15 +49,15 @@ def main():
             print(f"Fetching data for season {season}, round {round_num}...")
             data = fetch_race_result(season, round_num)
             if data:
-                upload_to_s3(data, BUCKET_NAME, f"raw/{season}/race_results/round_{round_num}.json")
+                upload_to_s3(data, BUCKET_NAME, f"bronze/{season}/race_results/round_{round_num}.json")
         print(f"Fetching driver standings for season {season}...")
         standings_driver=fetch_standings(season, "driverStandings")
         if standings_driver:
-            upload_to_s3(standings_driver, BUCKET_NAME, f"raw/{season}/driver_standings.json")
+            upload_to_s3(standings_driver, BUCKET_NAME, f"bronze/{season}/driver_standings.json")
         print(f"Fetching constructor standings for season {season}...")
         standings_constructors=fetch_standings(season, "constructorStandings")
         if standings_constructors:
-            upload_to_s3(standings_constructors, BUCKET_NAME, f"raw/{season}/constructor_standings.json")
+            upload_to_s3(standings_constructors, BUCKET_NAME, f"bronze/{season}/constructor_standings.json")
         print(f"Season {season} complete!")
 
 if __name__ == "__main__":

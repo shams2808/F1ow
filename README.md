@@ -5,9 +5,14 @@ F1ow is an automated weekly Formula 1 data pipeline that fetches, stores, and or
 ## 🏗️ Architecture
 ![F1ow Architecture](assets/architecture.png)
 
+### 🎭 Medallion Architecture
+- **Bronze Layer** — Raw F1 data landing zone (race results, standings)
+- **Silver Layer** — Cleaned, deduplicated, and validated data
+- **Gold Layer** — Aggregated business-ready metrics and reports
+
 ## 🛠️ Tech Stack
 - 🐍 **Python** — API ingestion scripts and boto3 for AWS interaction
-- ☁️ **AWS S3** — Cloud storage for raw and processed data layers
+- ☁️ **AWS S3** — Cloud storage for medallion architecture (bronze, silver, gold layers)
 - 🌬️ **Apache Airflow** — Orchestrates weekly pipeline runs via DAGs
 - 🏗️ **Terraform** — Provisions AWS S3 infrastructure as code
 - 🐳 **Docker** — Containerizes and runs Airflow locally
@@ -19,8 +24,12 @@ F1ow/
 │   ├── dags/         # DAG definitions
 │   ├── logs/         # Airflow logs
 │   └── docker-compose.yaml
-├── src/              # Python ingestion scripts
+├── src/              # Python ingestion & transformation scripts
 │   └── fetch_f1_data.py
+├── data/             # Local data layers (medallion architecture)
+│   ├── bronze/       # Raw F1 data landing zone
+│   ├── silver/       # Cleaned & validated data
+│   └── gold/         # Aggregated business-ready data
 ├── terraform/        # Infrastructure as code
 │   └── main.tf
 ├── assets/           # Project assets
